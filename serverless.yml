@@ -1,0 +1,10 @@
+name: aegis-lambda
+component: aws-lambda
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+inputs:
+  src: dist
+  handler: dist/index.handleServerlessRequest
